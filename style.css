@@ -1,0 +1,104 @@
+*{
+    padding:0;
+    margin:0;
+    border:border-box;
+}
+
+
+.navbar{
+    height:70px;
+   
+    background-color: rgb(4, 4, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar h1{
+    color:white;
+}
+body{
+    background-color: antiquewhite;
+}
+
+.content{
+    height:400px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    
+}
+.box{
+     border:none;
+     height: 200px;
+     width:200px;
+     border-radius:50%
+}
+
+#rock {
+    background-image: url("rock.jpg");
+    background-size:cover;
+}
+
+#paper {
+    background-image: url("paer.webp");
+    background-size:cover;
+}
+
+#Scissors {
+    background-image: url("th.jpg");
+    background-size:cover;
+}
+
+.Scores{
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: antiquewhite;
+    gap:30px;
+}
+
+#human,#computer{
+    font-size:4rem;
+}
+.comp,.me{
+text-align: center;
+}
+
+.message{
+    text-align: center;
+    
+}
+
+.border:hover{
+    border:4px solid rgb(0, 0, 0);
+}
+
+.msg{
+    padding:15px;
+    background-color:rgb(4, 4, 58) ;
+    color:white;
+    border-radius:12px;
+    box-shadow: 0rem 0rem 1rem rgb(0, 0, 0.8);
+}
+
+.msg-new{
+    padding:15px;
+    background-color:rgb(4, 4, 58) ;
+    color:white;
+    border-radius:12px;
+    box-shadow: 0rem 0rem 1rem rgb(0, 0, 0.8);
+    background-color: rgb(222, 52, 52);
+}
+
+.msg-new1{
+    padding:15px;
+    background-color:rgb(4, 4, 58) ;
+    color:rgb(0, 0, 0);
+    border-radius:12px;
+    box-shadow: 0rem 0rem 1rem rgb(0, 0, 0.8);
+    background-color: rgb(0, 255, 21);
+}
